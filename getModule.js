@@ -9,10 +9,10 @@ var unJsPorDia=(function(window,undefined){
 		//y false en caso de no ser un numero.
 		return (!isNaN(parseFloat(n))&&isFinite(n))?true:false;
 	}
-	//Función getModule, retorna el modulo de
+	//Función getModule, retorna el módulo de
 	//dos numeros.
 	//Aunque javascript tiene el
-	//operador modulo (%) no es funcional para
+	//operador módulo (%) este no es funcional para
 	//números negativos, por eso la existencia de
 	//esta función.
 	function getModule(a,b){
