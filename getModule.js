@@ -44,7 +44,7 @@ var unJsPorDia=(function(window,undefined){
 //Registramos el evento load para el objeto window
 //en otras palabras, nos aseguramos que antes de ejecutar
 //cualquier otra instrucción, la pagina web cargue completamente.
-//window.addEventListener("load",function(){
+window.addEventListener("load",function(){
 	//Guardamos una referencia al Objeto del DOM 
 	//que tenga como ID el valor getModule.
 	var getModule=document.getElementById('getModule');
@@ -66,4 +66,4 @@ var unJsPorDia=(function(window,undefined){
     //de nuestra biblioteca unJsPorDia.
     module.value=unJsPorDia.getModule(numberA,numberB);
   });
-//});
+});
